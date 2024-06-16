@@ -3,3 +3,58 @@ body {
   height: 100%;
   margin: 0;
 }
+
+section{
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+h1{
+  text-align: center;
+}
+
+nav{
+  text-align: center;
+}
+
+nav a{
+  text-decoration: none;
+  justify-content: space-between;
+  padding: 10px;
+  border: 2px solid #000;
+  color: #000;
+}
+
+nav a:hover{
+  color: #fff;
+  background: #000;
+  transition: .3s ease;
+}
+
+#featured-property figure{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#featured-property p{
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+figcaption{
+  font-size: 10px;
+}
+
+#details{
+  width: 100%;
+  background: red;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 200px;
+  margin-top: 20px;
+}
